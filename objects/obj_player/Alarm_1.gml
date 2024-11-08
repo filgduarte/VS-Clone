@@ -1,0 +1,1 @@
+is_recovering_hp = true;

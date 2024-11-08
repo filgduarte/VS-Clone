@@ -1,9 +1,20 @@
 {
-  "FolderOrderSettings": [
-    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+  "FolderOrderSettings":[
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Enemies","order":1,"path":"folders/Objects/Enemies.yy",},
+    {"name":"Tiles","order":2,"path":"folders/Objects/Tiles.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Characters","order":1,"path":"folders/Sprites/Characters.yy",},
+    {"name":"Enemies","order":2,"path":"folders/Sprites/Enemies.yy",},
+    {"name":"GUI","order":3,"path":"folders/Sprites/GUI.yy",},
+    {"name":"Maps","order":4,"path":"folders/Sprites/Maps.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings":[
+    {"name":"obj_camera","order":4,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_enemy_spawner","order":5,"path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},
+    {"name":"obj_enemy","order":3,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"game_init","order":1,"path":"scripts/game_init/game_init.yy",},
+  ],
 }
