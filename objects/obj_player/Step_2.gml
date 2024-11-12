@@ -8,7 +8,5 @@ if ( !is_colliding_with_enemy && hp < max_hp ) {
 		alarm[1] = -1;
 		hp = min(hp + recover_rate, max_hp);
 		is_recovering_hp = false;
-		
-		show_debug_message(hp);
 	}
 }

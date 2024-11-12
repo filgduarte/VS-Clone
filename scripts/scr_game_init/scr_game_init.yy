@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_random_position",
+  "%Name":"scr_game_init",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_random_position",
+  "name":"scr_game_init",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

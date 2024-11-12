@@ -1,5 +1,4 @@
-var _delta = delta_time / 1000000;
-seconds_counter += _delta;
+seconds_counter += global.delta;
 var _current_minute = floor(global.room_current_time / 60);
 
 // Check for enemies at the current minute
@@ -28,6 +27,7 @@ if ( _current_minute < array_length(global.spawns) && seconds_counter >= 1 ) {
 		// Spawn amount of enemies defined in the Room Creation Code
 		if ( ! struct_exists(_spawn, "delay") || _spawn.delay_counter == 0) {
 			for (var _j = 0; _j < _spawn.enemy_number; _j++) {
+				/// @type {Id.Instance.obj_enemy}
 				var _enemy = instance_create_layer(0, 0, "Instances", _spawn.object);
 
 				_enemy.hp = _spawn.hp;
