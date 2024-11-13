@@ -1,4 +1,6 @@
 damage = 0;
+critical_multiplier_range = {min: 0, max: 1};
+critical_multiplier = 1;
 pushback_speed = 7;
 offset_x = 0;
 offset_y = 0;

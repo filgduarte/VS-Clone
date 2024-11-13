@@ -2,7 +2,9 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":11,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Characters","order":8,"path":"folders/Objects/Characters.yy",},
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
+    {"name":"GUI","order":9,"path":"folders/Objects/GUI.yy",},
     {"name":"Items","order":7,"path":"folders/Objects/Items.yy",},
     {"name":"Weapons","order":4,"path":"folders/Objects/Items/Weapons.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -17,10 +19,11 @@
   "ResourceOrderSettings":[
     {"name":"obj_camera","order":4,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_enemy_spawner","order":5,"path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},
-    {"name":"obj_enemy","order":3,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_hit","order":2,"path":"objects/obj_hit/obj_hit.yy",},
     {"name":"obj_inventory","order":6,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_txt_timer","order":1,"path":"objects/obj_txt_timer/obj_txt_timer.yy",},
     {"name":"obj_upgrade","order":1,"path":"objects/obj_upgrade/obj_upgrade.yy",},
     {"name":"obj_wpn_sword","order":3,"path":"objects/obj_wpn_sword/obj_wpn_sword.yy",},
     {"name":"obj_wpn","order":1,"path":"objects/obj_wpn/obj_wpn.yy",},

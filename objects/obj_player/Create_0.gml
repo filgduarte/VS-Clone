@@ -30,17 +30,23 @@ is_colliding_with_enemy = false;
 is_taking_damage = false;
 is_recovering_hp = false;
 
-// Inventory
-instance_create_layer(x, y, layer, obj_inventory);
-obj_inventory.items[0] = obj_wpn_sword;
-with (obj_inventory) {
-	event_user(0);
-}
-
-// Extra
+// Healthbar
 healthbar_position  = new Vector2(
 	sprite_get_width(spr_gui_healthbar) / 2,
 	sprite_height / 2 + 2
 );
+
+// Inventory
+instance_create_layer(x, y, layer, obj_inventory);
+
+set_initial_items = function(_initial_items) {
+	for (i = 0; i < array_length(_initial_items); i++) {
+		obj_inventory.items[i] = _initial_items[i];
+	}
+
+	with (obj_inventory) {
+		event_user(0);
+	}
+};
 
 alarm[1] = -1;

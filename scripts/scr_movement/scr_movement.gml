@@ -13,5 +13,5 @@ function move_towards(_new_x, _new_y, _speed = 1.0, _old_x = x, _old_y = y) {
 	
 	x += _x_increment;
 	y += _y_increment;
-	image_xscale = _x_increment != 0 ? sign(_x_increment) : image_xscale;
+	image_xscale = _x_increment != 0 ? abs(image_xscale) * sign(_x_increment) : image_xscale;
 }

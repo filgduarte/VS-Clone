@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-item_type = TYPE.UPGRADE;
+item_type = ITEM_TYPE.UPGRADE;
 item_function = function() {
 	show_debug_message("UPGRADE");
 }

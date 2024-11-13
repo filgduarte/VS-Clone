@@ -8,5 +8,6 @@ view_yport[0] = 0;
 view_wport = global.viewport.width;
 view_hport = global.viewport.height;
 
-instance_create_layer(x, y, "Instances", obj_player);
+instance_create_layer(x, y, "Instances", global.player_char);
 instance_create_layer(x, y, "Instances", obj_camera);
+instance_create_layer(obj_camera.x + global.camera.width / 2, obj_camera.y + 20, "Instances", obj_txt_timer);

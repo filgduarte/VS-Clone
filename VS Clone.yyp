@@ -12,7 +12,9 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objects/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Items","folderPath":"folders/Objects/Items.yy","name":"Items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Weapons","folderPath":"folders/Objects/Items/Weapons.yy","name":"Weapons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,6 +36,7 @@
   "resources":[
     {"id":{"name":"fnt_alagard","path":"fonts/fnt_alagard/fnt_alagard.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_char_antonio","path":"objects/obj_char_antonio/obj_char_antonio.yy",},},
     {"id":{"name":"obj_enemy_bat","path":"objects/obj_enemy_bat/obj_enemy_bat.yy",},},
     {"id":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -43,6 +46,8 @@
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_txt_damage","path":"objects/obj_txt_damage/obj_txt_damage.yy",},},
+    {"id":{"name":"obj_txt_timer","path":"objects/obj_txt_timer/obj_txt_timer.yy",},},
     {"id":{"name":"obj_upgrade","path":"objects/obj_upgrade/obj_upgrade.yy",},},
     {"id":{"name":"obj_wpn_sword","path":"objects/obj_wpn_sword/obj_wpn_sword.yy",},},
     {"id":{"name":"obj_wpn","path":"objects/obj_wpn/obj_wpn.yy",},},

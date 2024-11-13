@@ -4,7 +4,7 @@ function game_init(){
 	global.delta = 0;
 	global.room_total_time = 30;
     global.room_current_time = 0;
-    /// @type Array<Array<Struct.SpawnInfo>>
+    global.player_char = obj_char_antonio;
 	global.spawns = [];
 
     surface_resize(application_surface, global.viewport.width, global.viewport.height);

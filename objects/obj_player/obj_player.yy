@@ -40,10 +40,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_char_antonio",
-    "path":"sprites/spr_char_antonio/spr_char_antonio.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

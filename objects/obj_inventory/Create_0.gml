@@ -1,4 +1,4 @@
-enum TYPE {
+enum ITEM_TYPE {
 	WEAPON,
 	UPGRADE,
 	CONSUMABLE
